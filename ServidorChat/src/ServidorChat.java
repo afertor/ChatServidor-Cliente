@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.*;
 
 public class ServidorChat {
-    private static final int MAX_CLIENTS = 2;
+    private static final int MAX_CLIENTS = 10;
     private static int connectedClients = 0;
     private static List<ClientHandler> clients = new ArrayList<>();
     private static ServerSocket serverSocket;
